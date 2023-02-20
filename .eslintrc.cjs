@@ -14,5 +14,6 @@ module.exports = {
   },
   rules: {
     'linebreak-style': ['error', os.EOL === '\r\n' ? 'windows' : 'unix'],
+    'import/extensions': ['error', { js: 'ignorePackages' }],
   },
 };

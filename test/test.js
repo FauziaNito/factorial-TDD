@@ -1,3 +1,6 @@
+
+// Terry Kayondo
+// Nakacwa Fauzia
 import { assert } from 'chai';
 import { factorialLoop, factorialRecursive } from '../factorial.js';
 
