@@ -1,7 +1,7 @@
 import { assert } from 'chai';
 import { factorialLoop, factorialRecursive } from '../factorial.js';
 
-const factorial = factorialLoop;
+const factorial = factorialRecursive;
 
 describe('Testing Factorial', () => {
   it('should return factorial of 0 as 1', () => {
