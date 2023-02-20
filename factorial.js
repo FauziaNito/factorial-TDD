@@ -14,7 +14,7 @@ export function factorialLoop(n) {
   }
   let result = 1;
   for (let i = n; i > 0; i -= 1) {
-    result *= n;
+    result *= i;
   }
   return result;
 }
